@@ -22,8 +22,7 @@ jobs:
 
 
     # Install dependencies and build the server
-    - name: Install server dependencies
-      run: npm install
+    
 
     # Deploy to EC2 server via SSH
     - name: Deploy to EC2
