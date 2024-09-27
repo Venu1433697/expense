@@ -47,7 +47,7 @@ jobs:
         cd /home/ec2-user/server
         # Pull the latest changes from the repository
         git remote add origin https://github.com/Venu1433697/expense.git
-        git pull origin main
+        git pull origin production
         # Install server dependencies on EC2
         cd server
         npm install
